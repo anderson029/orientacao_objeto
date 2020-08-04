@@ -5,8 +5,8 @@ class ClasseMae
 end
 # atribundo a classe mae para classe filha e substituindo valor do método
 class ClasseFilha < ClasseMae
-    def correr
-        super# apresenta os valores das duas classes em herança mãe depois filha
+    def correr # para herdar valores de classe da classe mãe é necessário o nome dos métodos ser iguais
+        super # apresenta os valores das duas classes em herança mãe depois filha
         puts 'a filha corre'
     end
 end
